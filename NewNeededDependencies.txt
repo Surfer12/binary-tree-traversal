@@ -1,0 +1,47 @@
+I'll help you with installing these requirements:
+
+1. Maven:
+- Download Maven from: https://maven.apache.org/download.cgi
+- Extract the archive
+- Add the bin directory to your PATH environment variable
+- Verify with: `mvn -version`
+
+2. Node.js (includes npm):
+- Download from: https://nodejs.org/
+- Run the installer
+- Verify with: `node -v` and `npm -v`
+
+3. Go:
+- Download from: https://golang.org/dl/
+- Run the installer
+- Add Go binary location to PATH (usually done automatically by installer)
+- Verify with: `go version`
+
+4. Python 3 and pip:
+- Download from: https://www.python.org/downloads/
+- Run the installer (make sure to check "Add Python to PATH" during installation)
+- Verify with: `python --version` and `pip --version`
+
+5. Gradle:
+- Download from: https://gradle.org/install/
+- Extract the archive
+- Add the bin directory to PATH
+- Verify with: `gradle -v`
+
+6. Java 20 or later:
+- Download from: https://www.oracle.com/java/technologies/downloads/ or use OpenJDK
+- Run the installer
+- Add JAVA_HOME environment variable
+- Add Java bin directory to PATH
+- Verify with: `java -version`
+
+To add to PATH on Windows:
+1. Open System Properties (Win + Pause)
+2. Click "Advanced system settings"
+3. Click "Environment Variables"
+4. Under System Variables, find PATH
+5. Click Edit
+6. Add the new paths
+7. Click OK to save
+
+After installing, restart your terminal/command prompt for the changes to take effect.
