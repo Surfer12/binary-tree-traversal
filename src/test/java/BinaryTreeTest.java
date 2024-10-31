@@ -1,8 +1,9 @@
-import static org.mockito.Mockito.*;
-import org.junit.Test;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.verify;
+
 
 public class BinaryTreeTest {
-    @Test
     public void testPreOrderTraversal() {
         // Create a spy of the BinaryTree to monitor method calls
         BinaryTree tree = spy(new BinaryTree());
@@ -16,7 +17,6 @@ public class BinaryTreeTest {
         verify(tree).preOrderTraversal(mockNode);
     }
 
-    @Test
     public void testInOrderTraversal() {
         // Create a spy of the BinaryTree
         BinaryTree tree = spy(new BinaryTree());
