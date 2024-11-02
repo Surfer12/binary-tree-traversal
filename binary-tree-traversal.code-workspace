@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"name": "binary-tree-traversal",
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			"src/test/java"
+		],
+		"java.configuration.updateBuildConfiguration": "interactive"
+	}
+}
