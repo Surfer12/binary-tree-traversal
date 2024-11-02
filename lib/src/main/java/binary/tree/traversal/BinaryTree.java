@@ -1,3 +1,4 @@
+package binary.tree.traversal;
 public class BinaryTree {
     Node root;
 

@@ -1,3 +1,4 @@
+package binary.tree.traversal;
 public class Node {
     int data;      // The value or data stored in the node
     Node left;     // Reference to the left child node
