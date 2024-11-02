@@ -5,14 +5,11 @@
 1. [Overview](#overview)
 2. [Understanding Binary Trees in Java](#understanding-binary-trees-in-java)
 3. [Types of Trees in Java](#types-of-trees-in-java)
-4. [Stack Frame Diagrams](#stack-frame-diagrams)
-5. [Recursive Functions in Tree Traversal](#recursive-functions-in-tree-traversal)
-6. [Applicability in Java](#applicability-in-java)
-7. [Usage](#usage)
-
-## Overview
-
-This project implements a binary tree and provides methods for pre-order and in-order traversal using recursive functions.
+4. [Additional Examples](#additional-examples)
+5. [Stack Frame Diagrams](#stack-frame-diagrams)
+6. [Recursive Functions in Tree Traversal](#recursive-functions-in-tree-traversal)
+7. [Applicability in Java](#applicability-in-java)
+8. [Usage](#usage)
 
 ## Understanding Binary Trees in Java
 
@@ -140,6 +137,10 @@ Each type has specific use cases:
 - **Trie**: String operations
 - **Heap**: Priority queues
 
+## Additional Examples
+
+### Binary Tree Example - File System
+
 ## Stack Frame Diagrams
 
 ### Trie Stack Frame
@@ -244,4 +245,3 @@ class Node {
         left = right = null;
     }
 }
-```

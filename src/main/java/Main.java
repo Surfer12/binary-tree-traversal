@@ -14,11 +14,13 @@ public class Main {
         tree.root.left.left = new Node(4);   // Left child of node 2
         tree.root.left.right = new Node(5);  // Right child of node 2
 
-        // Perform pre-order traversal
+        // Perform pre-order traversal (Root -> Left -> Right)
+        // Expected output: 1 2 4 5 3
         System.out.println("Pre-order Traversal:");
         tree.preOrderTraversal(tree.root);
 
-        // Perform in-order traversal
+        // Perform in-order traversal  (Left -> Root -> Right) 
+        // Expected output: 4 2 5 1 3
         System.out.println("\nIn-order Traversal:");
         tree.inOrderTraversal(tree.root);
     }
